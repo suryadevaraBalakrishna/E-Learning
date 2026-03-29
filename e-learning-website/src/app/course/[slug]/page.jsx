@@ -7,7 +7,6 @@ import { addtoCart, deleteCart } from '@/app/slice/cartSlice'
 import { addtowishlist, removefromwishlist } from '@/app/slice/wishlistSlice'
 import { myStore } from '@/app/store/store'
 import axios from 'axios'
-import { useParams } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
