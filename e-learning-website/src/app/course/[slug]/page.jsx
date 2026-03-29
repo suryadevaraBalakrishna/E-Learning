@@ -1,4 +1,7 @@
-'use client'
+export const dynamic = "force-dynamic";
+"use client";
+import { useParams } from "next/navigation";
+
 import CourseItem from '@/app/components/common/CourseItem'
 import { addtoCart, deleteCart } from '@/app/slice/cartSlice'
 import { addtowishlist, removefromwishlist } from '@/app/slice/wishlistSlice'
