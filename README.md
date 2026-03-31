@@ -28,6 +28,10 @@ https://e-learning-frontend-f9or.onrender.com/
 - Authentication: JWT
 - Deployment: Render
 
+## 💳 Payment Integration
+- Integrated payment gateway for course purchases
+- Secure transaction handling and order confirmation
+
 ## ⚙️ Setup
 
 ```bash
