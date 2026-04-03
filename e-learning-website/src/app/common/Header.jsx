@@ -100,7 +100,7 @@ export default function Header() {
 
                             {/* Cart */}
                             <Link href="/cart" className="nav-link d-flex align-items-center gap-1 fw-semibold">
-                                <i className="fa fa-shopping-cart fa-regular"></i>
+                                <i className="fa-solid fa-cart-shopping"></i>
                                 <span>Cart <sup>{mycart.length == 0 ? '' : mycart.length}</sup></span>
 
 
